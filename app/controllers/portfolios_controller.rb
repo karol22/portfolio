@@ -11,6 +11,10 @@ class PortfoliosController < ApplicationController
     @portfolio = Portfolio.new
   end
 
+  def show
+    @portfolio = Portfolio.find(params[:id])
+  end
+
   def create
     @portfolio = Portfolio.new(portfolio_params)
 
