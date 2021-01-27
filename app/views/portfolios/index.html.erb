@@ -6,7 +6,7 @@
 </br>
 
 <% @portfolio_items.each do |portfolio_item| %>
-  <b><%=link_to portfolio_item.title, portfolio_path(portfolio_item) %></b>
+  <b><%=link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></b>
   <p><%=portfolio_item.subtitle %></p>
   <p><%=portfolio_item.body %></p>
   <%= image_tag portfolio_item.thumb_image unless portfolio_item.thumb_image.nil?%></br>
