@@ -3,6 +3,8 @@
 # Portfolio controller
 # This comment is to comply with rubocop
 class PortfoliosController < ApplicationController
+  layout 'portfolio'
+
   def index
     @portfolio_items = Portfolio.all
   end
