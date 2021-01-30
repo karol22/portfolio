@@ -51,3 +51,4 @@ gem 'friendly_id', '~> 5.4.0'
 gem 'bootstrap', '~> 5.0.0.beta1'
 gem 'jquery-rails'
 
+gem 'devcamp_view_tool_k', git: 'https://github.com/karol22/devcamp_view_tool_k', branch: 'main'
