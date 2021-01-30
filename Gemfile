@@ -52,3 +52,4 @@ gem 'bootstrap', '~> 5.0.0.beta1'
 gem 'jquery-rails'
 
 gem 'devcamp_view_tool_k', '~> 0.1.0'
+gem 'petergate', '~> 1.7'
