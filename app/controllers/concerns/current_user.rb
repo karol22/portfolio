@@ -9,9 +9,7 @@ module CurrentUser
   end
 
   def guest_user
-    OpenStruct.new(name: 'Guest guest',
-                   first_name: 'Gg',
-                   last_name: 'gG',
+    User.new(name: 'Guest guest',
                    email: 'asd@asd'
     )
   end
